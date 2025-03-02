@@ -6,6 +6,7 @@ root = Tk()
 
 e = Entry(root, width=50, borderwidth=5, fg="white", bg = "black")
 e.pack()
+e.insert(0,"Enter your name ")
 
 def myClick():
     hello = "Hello "+ e.get()
